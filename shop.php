@@ -1,5 +1,5 @@
 <?php
-    $links = ['home' => 'home.php', 'add' => 'add.php'];
+    $links = ['home' => 'home.php', 'add' => 'add.php', 'edit' => 'edit.php'];
 ?>
 
 <!DOCTYPE html>

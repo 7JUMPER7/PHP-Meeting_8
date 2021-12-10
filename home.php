@@ -34,6 +34,7 @@
                     <th>Manufacturer</th>
                     <th>Name</th>
                     <th>Price</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -48,6 +49,7 @@
                         foreach($row as $k => $v) {
                             echo "<td>$v</td>";
                         }
+                        echo "<td><a class='btn btn-primary' style='font-size: 13px; padding: 2px 5px;' href='?page=edit&id=".$row[0]."'>Edit</a></td>";
                         echo "</tr>";
                     }
                     mysqli_close($link);
